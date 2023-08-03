@@ -19,7 +19,8 @@ html {
   color: white;
 }
 
-nav ul {
+/* Nav Bar */
+.nav-bar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -27,11 +28,15 @@ nav ul {
   background-color: #333333;
 }
 
-nav li {
+.nav-bar h2 {
+  padding: 10px 0 10px 10%;
+}
+
+.nav-bar li {
   float: left;
 }
 
-nav li a {
+.nav-bar li a {
   display: block;
   color: white;
   text-align: center;
@@ -39,7 +44,7 @@ nav li a {
   text-decoration: none;
 }
 
-nav li a:hover {
+.nav-bar li a:hover {
   background-color: #111111;
 }
 
